@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Squeak</title>
+		<link rel="stylesheet" type="text/css" href="styles.css"/>
+	</head>
+
+	<body class="page"><!--to add the css class to here just put it into the opening tag. The
+						class is just a way of picking out one element from the css stylesheet to apply to this method.-->
+		<h1 id="logo">Squeak</h1>
+
+		<h2>Search</h2>
+		<form action="/results" method="POST">
+			<input type = "text" size="30" placeholder="Restaurants" name="term"/>
+			<input type="text" size="20" placeholder="Claremont" name="location"/>
+			<input type="submit" value="Search"/><!--comment-->
+		</form>
+
+		<h2>Saved</h2>
+		<ul><!--unordered list-->
+			<li><!--list item - every one is contained in unordered list. li makes bullet points-->
+				<div><!--makes stuff look pretty-->
+					<h4><a href="http://www.google.com">Tutti Mangia Italian Grill</a></h4><!--the a tag lets you navigate around websites-->
+					<p>Italian, Caterers <br /><!--paragraph, and <br /> is line break-->
+					Address<br />
+					Telephone Number<br />
+					</p>
+				</div>
+			</li>
+		</ul>
+
+		<img width="50px" height="50px" src=forkKnife.jpg /><!--when there is a closing part at the end the tag closes itself. Nothing in between an open tag and a close tag-->
+	</body>
+
+</html>

@@ -1,0 +1,32 @@
+body{
+	font-family: 'Helvetica'; /*CSS - cascading style sheets. For each method this will apply the formatting we specify*/
+	background: none;
+}
+
+a, h1, h2 {
+	color: #FF6666; /*look up color picker for more values. can use rgb(#,#,#) thru val 255*/
+}
+
+h1 {
+	font-family: 'Georgia'; /*overrides what we did in the body*/
+	border-bottom: 2px solid #eee; /*size, solid border, color w3schools.com*/
+}
+
+h2{
+	color: #33CC99;
+	font-family: 'Georgia';
+	font-size: 1.5em;/*em is unit of text based on size of user's browser's text*/
+}
+
+.page {/*to create a class, just put a period in front of the name*/
+	margin: 2em auto;/*space around the border as detailed in padding, below*/
+	width: 35em;
+	border: 5px solid #ccc;
+	padding: 0.8em;/*padding around content, adding border */
+	background: white;
+}
+
+#logo {/*id . Differenc between id and class: element can only have one id*/
+	font-family: 'Helvetica';
+	font-size: 4em;
+}
